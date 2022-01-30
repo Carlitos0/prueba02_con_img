@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navegador{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin-top: 70px;
+}
+.titulo{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cont-btn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background: indianred;
+    color: aliceblue;
+    border: 2px solid chocolate;
+    width: 170px;
+    height: 30px;
+}
+button:hover{
+    cursor: pointer;
+    background: aliceblue;
+    color: indianred;
+}
+
